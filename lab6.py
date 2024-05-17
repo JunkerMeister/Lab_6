@@ -53,12 +53,14 @@ class LinkedList:
             current_node = current_node.next
         return result
 
-# Пример использования
-my_list = LinkedList()
-my_list.append(3)
-my_list.append(1)
-my_list.append(4)
-my_list.append(2)
-print(my_list)  # Output: 3 1 4 2
-my_list.sort_list()
-print(my_list)  # Output: 1 2 3 4
+
+if __name__ == '__main__':
+    # Пример использования
+    my_list = LinkedList()
+    my_list.append(3)
+    my_list.append(1)
+    my_list.append(4)
+    my_list.append(2)
+    print(my_list)  # Output: 3 1 4 2
+    my_list.sort_list()
+    print(my_list)  # Output: 1 2 3 4
